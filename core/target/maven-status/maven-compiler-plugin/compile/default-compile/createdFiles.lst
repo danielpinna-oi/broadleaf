@@ -1,0 +1,5 @@
+com/oi/core/domains/OiProductOiRegion.class
+com/oi/core/domains/OiProduct.class
+com/oi/core/domains/OiRegion.class
+com/oi/core/domains/OiCityOiRegion.class
+com/oi/core/domains/OiCity.class

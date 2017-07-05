@@ -1,0 +1,8 @@
+---
+applications:
+ - name: admin
+   random-route: true
+   path: target/admin.war
+   memory: 256M
+   instances: 1
+   buildpack: java_buildpack

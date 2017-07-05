@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Starting HSQL Database..."/>
+  <java fork="true" spawn="true" classname="org.hsqldb.Server" classpathref="maven.plugin.classpath">
+    <arg line="-database.0 file:/home/oi395010/POC/poc-broadleaf/admin/../data/broadleaf -dbname.0 broadleaf"/>
+  </java>
+  <echo message="Database started succcessfully"/>
+</target>
+</project>

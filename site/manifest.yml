@@ -1,0 +1,8 @@
+---
+applications:
+ - name: mycompany
+   random-route: true
+   path: target/mycompany.war
+   memory: 256M
+   instances: 1
+   buildpack: java_buildpack

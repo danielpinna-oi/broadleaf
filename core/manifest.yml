@@ -1,0 +1,8 @@
+---
+applications:
+ - name: core
+   random-route: true
+   path: target/core-5.1.war
+   memory: 256M
+   instances: 1
+   buildpack: java_buildpack
